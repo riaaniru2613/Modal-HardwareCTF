@@ -1,0 +1,72 @@
+:root{
+    --primary: #1a237e;
+    --secondary: #ffffff;
+    --sigCardReveal: rgba(0,0, 0, 0.7);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family : GothamPro ;
+  }
+  
+  .modal-wrapper {
+    background: var(--secondary);
+    width: 80%;
+    max-width: 50rem;
+    margin: 4rem auto;
+    transition: all .5s ease;
+    
+  }
+  .modal-header {
+    background: var(--sigCardReveal);
+    color: var(--secondary);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .modal-content {
+    padding: 1.5rem 1rem;
+    margin-bottom: 1rem;
+  }
+  .modal-questionblock {
+    font-size: 1rem;
+    background: var(--navBarPrimary);
+    color: var(--primary);
+    padding: 1rem;
+    margin: 1rem 0 2rem 0;
+    
+  }
+  
+  .back-drop {
+    background: var(--sigCardReveal);
+    height: 100%;
+    position: fixed;
+    transition: all 1.3s;
+    width: 100%;
+  }
+.close-btn{
+    background : var(--primary) !important;
+}
+
+.top-btn{
+    background: var(--sigCardReveal) !important
+}
+
+.question-link{
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem 0 2rem 0;
+}
+.hint-link{
+    padding: 1rem;
+    margin: 1rem 0 2rem 0;
+}
+
+.flag {
+    font-size : 3rem !important
+}
+  
